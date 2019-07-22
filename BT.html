@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<SCRIPT>
+    let validate=prompt('Nhập Account');
+    function account(name) {
+        regex=/^[_a-z0-9]{6,}$/;
+        if (regex.test(name)){
+            alert('Account hợp lệ')
+        }
+        else {
+            alert('Mời nhập lại')
+        }
+
+    }
+    account(validate);
+</SCRIPT>
+</body>
+</html>
